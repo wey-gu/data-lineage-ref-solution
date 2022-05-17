@@ -1,8 +1,6 @@
-[TOC]
-
 ## The Data Stack
 
-The reference project will set up a minimal Data Stack and playground environment with Data Warehouse/Database, ETL Pipeline, and Metadata Discovery/Lineage Management System to demonstrate to new data engineers how modern data infra with the open-source community's joint efforts.
+This reference project will set up a minimal Data Stack and playground environment with Data Warehouse/Database, ETL Pipeline, and Metadata Discovery/Lineage Management System to demonstrate to new data engineers how modern data infra with the open-source community's joint efforts.
 
 ### Database and Data Warehouse
 
@@ -184,7 +182,7 @@ You could follow [here](https://github.com/pnadolny13/meltano_example_implementa
 > meltano install
 > touch .env
 > echo PG_PASSWORD="lineage_ref" >> .env
-> echo POSTGRES_USER="lineage_ref" >> .env
+> echo PG_USERNAME="lineage_ref" >> .env
 > 
 > # Extract and Load(with Singer)
 > meltano run tap-csv target-postgres
@@ -261,8 +259,8 @@ In my example, I changed the hostname to `10.1.1.111`, which is the IP of my cur
 - Add Postgres credential to `.env` file:
 
 ```bash
-echo PG_USERNAME=meltano >> .env
-echo PG_PASSWORD=meltano >> .env
+echo PG_USERNAME=lineage_ref >> .env
+echo PG_PASSWORD=lineage_ref >> .env
 ```
 
 - Install the Meltano project, run ETL pipeline
