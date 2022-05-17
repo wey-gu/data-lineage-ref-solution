@@ -1,0 +1,6 @@
+[submodule "amundsen"]
+	path = amundsen
+	url = https://github.com/wey-gu/amundsen.git
+[submodule "meltano_example_implementations"]
+	path = meltano_example_implementations
+	url = https://github.com/pnadolny13/meltano_example_implementations.git
