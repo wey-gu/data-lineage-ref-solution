@@ -1,6 +1,15 @@
+# A reference datalab stack
+
+This reference project will set up an end to end minimal Data Stack with playground environment coverring from Data Warehouse/Database, ETL Pipeline, Data BI, to Metadata Discovery/Lineage Management System.
+I started this for learning purposes and I hope it helps to new data engineers understand how modern data infra with the open-source community's joint efforts could be used to build a better data science ecosystem.
+
+There are already a bunch of projects out there that covers most of the stack already, my motivation is to **add a layer of Metadata Discovery/Lineage Management System** to the stack. And from this diagram we could see I put most of the components as Metadata Sources:
+
+![](https://user-images.githubusercontent.com/1651790/168849779-4826f50e-ff87-4e78-b17f-076f91182c43.svg)
+
 ## The Data Stack
 
-This reference project will set up a minimal Data Stack and playground environment with Data Warehouse/Database, ETL Pipeline, and Metadata Discovery/Lineage Management System to demonstrate to new data engineers how modern data infra with the open-source community's joint efforts.
+Let's start with the Data Stack.
 
 ### Database and Data Warehouse
 
