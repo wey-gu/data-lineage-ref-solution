@@ -1,9 +1,9 @@
 # A reference datalab stack
 
-This reference project will set up an end to end minimal Data Stack with playground environment coverring from Data Warehouse/Database, ETL Pipeline, Data BI, to Metadata Discovery/Lineage Management System.
+This reference project will set up an end-to-end minimal Data Stack with a playground environment covering Data Warehouse/Database, ETL Pipeline, Data BI, and Metadata Discovery/Lineage Management System.
 I started this for learning purposes and I hope it helps to new data engineers understand how modern data infra with the open-source community's joint efforts could be used to build a better data science ecosystem.
 
-There are already a bunch of projects out there that covers most of the stack already, my motivation is to **add a layer of Metadata Discovery/Lineage Management System** to the stack. And from this diagram we could see I put most of the components as Metadata Sources:
+There are already a bunch of projects out there that cover most of the stack already, my motivation is to **add a layer of Metadata Discovery/Lineage Management System** to the stack. And from this diagram we could see I put most of the components as Metadata Sources:
 
 ![](https://user-images.githubusercontent.com/1651790/168849779-4826f50e-ff87-4e78-b17f-076f91182c43.svg)
 
@@ -43,7 +43,7 @@ And under the hood, we will E(extract) and L(load) data from many different data
 
 How about creating dashboards, charts, and tables for getting the insights into all the data?
 
-![](https://superset.apache.org/img/explorer5.jpg)
+![](https://user-images.githubusercontent.com/1651790/172800854-8e01acae-696d-4e07-8e3e-a7d34dec8278.png)
 
 [Apache Superset](https://superset.apache.org/) is one of the greatest visualization platforms we could choose from, and we just add it to our packet!
 
@@ -61,7 +61,7 @@ With more components and data being introduced to a data infra, there will be ma
 
 [Linux Foundation Amundsen](https://www.amundsen.io/amundsen/) is one of the best projects solving this problem.
 
-![](https://www.amundsen.io/amundsen/frontend/docs/img/table_detail_page.png)
+![](https://user-images.githubusercontent.com/1651790/172801018-ecd67fa9-2743-451f-8734-b14f2a814199.png)
 
 
 
